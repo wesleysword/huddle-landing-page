@@ -1,0 +1,61 @@
+@media (max-width: 480px) {
+    body {
+        background: url(../images/bg-mobile.svg)  no-repeat;
+        background-size: contain;
+        background-color: hsl(257, 40%, 49%);
+        flex-direction: column;
+        height: 100vh;
+        overflow: scroll;
+    }
+
+    .logo {
+        margin: 40px 30px 50px 40px;
+    }
+
+    .logo img{
+        width: 150px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .container img {
+        width: 350px;
+    }
+
+    .container .info {
+        text-align: center;
+        width: 350px;
+        margin-top: 60px;
+    }
+
+    .container .info .descricao {
+        text-align: center;
+        padding: 25px;
+    }
+
+    .container .info .btn-register {
+        align-self: center;
+    }
+
+    .social {
+        margin: 30px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 770px) {
+    body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
+

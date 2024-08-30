@@ -1,0 +1,90 @@
+body {
+    background: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-position: auto;
+    background-color: hsl(257, 40%, 49%);
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}
+
+.logo {
+    margin: 50px 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.container .info .titulo {
+    font-size: 30px;
+    margin-bottom: 25px;
+    max-width: 400px;
+}
+
+.container .info .descricao {
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 450px;
+}
+
+.container .btn-register {
+    background-color: #ffffff;
+    color: hsl(257, 40%, 49%);
+    align-self: flex-start;
+    padding: 15px 50px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.3s;
+}
+
+.container .btn-register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+}
+
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    margin: 130px 100px;
+}
+
+.social i {
+    width: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.social .fa-instagram {
+    font-size: 20px;
+}
+
+.social .fa-facebook-f {
+    font-size: 19px;
+}
+
+.social a {
+    padding: 12px 14px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+
+.social a:hover {
+    color: hsl(300, 69%, 71%);
+}
